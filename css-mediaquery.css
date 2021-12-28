@@ -1,0 +1,239 @@
+/****** START ******/
+/*
+
+*{    
+    font-family: calibri;
+    color: black;
+    margin: auto;
+}
+
+/****** GRID ******/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+}
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/****** HEADER SEC ******/
+header {
+    height: 800px;
+    background: url('../imgs/top-img2.png'); 
+    background-size: cover;
+    background-position: center;
+}
+
+header h1 { 
+    position: absolute;
+    padding: 5px 0 25px 15px;
+    top: -5px;
+    left: 0;
+    font-size: 37px;
+
+}
+/*header h2 { 
+    padding: 55px 0 25px 15px;
+    position: absolute;
+    top: 90px;
+    left: 0;
+    font-size: 77px;
+}*/
+header h2 {
+    position: absolute;
+    top: 225px;
+    left: 70px;
+    width: 1000px;
+    clear: both;
+    font-family: calibri;
+    font-size: 80px;
+    line-height: 77px;
+    color: black;
+    padding: 55px 0 25px 15px;
+}
+
+nav {
+   position: absolute;
+   float: right; 
+   top: 3px;
+   right: 375px;
+   padding: 15px;
+   margin: auto;
+
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 5px 5px;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 27px;
+    font-weight: bold;
+    color: black;
+    padding-left: 30px;
+    /*width: 100%;*/
+}
+
+/*nav ul li::after{
+   content: '';
+    width: 0%;
+    height: 2px;
+    background: #2E2E2E;
+    display: block;
+    margin: auto;
+    transition: .7s; 
+}*/
+
+
+
+
+/****** ABOUT ******/
+#about{
+    background-color: #dfd7d3;
+}
+
+#about .full-width {
+    padding: 80px 0;
+}
+
+#about h2 {
+    font-family: calibri; 
+    font-size: 37px;
+    padding-left: ;
+}
+
+#about p {
+    font-size: 21px;
+    color: black;
+    padding-left: 0px;
+    padding-right: 25px;
+    line-height: 40px;
+}
+
+
+/****** PROJECTS ******/
+
+#projects {
+    background-color: #BFAFA7;
+    text-align: center;
+}
+
+#projects .full-width {
+    padding: 110px 0;
+}
+
+#projects img {
+    padding-bottom: 30px;
+}
+
+#projects h3 {
+    font-size: 21px;
+    line-height: 30px;
+    width: 190px;
+    margin: 0 auto;
+}
+
+#projects p {
+    font-family: calibri; 
+    font-size: 21px;
+    line-height: 30px;
+    padding: 0 50px;
+}
+
+/*#projects .third-width {
+    padding: 50px 0;
+    padding-bottom: 20px;
+}
+*/
+
+ 
+/****** CONTACT ******/
+
+#contact{
+    background-color: #dfd7d3;
+}
+
+#contact .full-width {
+    padding: 110px 0;
+}
+
+#contact img#contact-img2 {
+    margin-left: 25px;
+    border: 12px solid #ffffff;
+}
+
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
+    padding-left: 110px;
+}
+#contact #envelope {
+    padding: 0 10px 0 115px;
+}
+
+#contact h2 {
+    font-family: calibri; 
+    font-size: 27px;
+    line-height: 40px;
+}
+
+#contact h3 {
+    font-family: calibri; 
+    font-size: 17px;
+    line-height: 15px;
+}
+
+/*#contact h4{
+    font-family: calibri;
+    font-size: 10px;
+    text-align: left;
+    color: #57585e;
+    /*position: absolute;
+    padding: 75px 25px;
+    float: right;
+}*/
+
+#contact #email-header{
+    font-size: 25px;
+    font-weight: normal;
+    line-height:25px;
+    margin: -30px 0 5px 0;
+}
+#contact #socialmedia-header {
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 40px;
+    margin: 40px 0 0 0;
+}
+#contact a {
+    text-decoration: none;
+    color: #a66747;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+     display: inline-block;
+}
+#contact ul img {
+    padding-right: 47px;
+}
+
+/****** FOOTER ******/
+
+
+
+
+
+
+
